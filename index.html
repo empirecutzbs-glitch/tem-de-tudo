@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Tem De Tudo Supermarket — Mercado Brasileiro em Riverside, NJ</title>
+<meta name="description" content="Tem De Tudo Supermarket: mercado brasileiro em Riverside, NJ. Produtos do Brasil, carnes, bebidas e o gostinho de casa."/>
+<link rel="icon" href="data:,"/>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--main:#1e7d32;--dark:#12351a;--accent:#ffd54a;--light:#f7f4ef}
+body{font-family:Georgia,'Times New Roman',serif;background:var(--light);color:#1c1a17}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;background:var(--dark);color:#fff;z-index:10}
+.hbar{display:flex;justify-content:space-between;align-items:center;padding:14px 0}
+.logo{font-size:20px;letter-spacing:1px;font-weight:bold}
+.logo span{color:var(--accent)}
+.langs button{background:none;border:1px solid rgba(255,255,255,.4);color:#fff;padding:4px 10px;margin-left:6px;border-radius:20px;cursor:pointer;font-size:13px}
+.langs button.on{background:var(--accent);border-color:var(--accent);color:#111}
+.hero{background:linear-gradient(rgba(0,0,0,.62),rgba(0,0,0,.62)),url('https://images.unsplash.com/photo-1542838132-92c53300491e?w=1600&q=80') center/cover;color:#fff;padding:96px 0 80px;text-align:center}
+.hero h1{font-size:42px;line-height:1.15;max-width:760px;margin:0 auto 16px}
+.hero p{font-size:19px;max-width:620px;margin:0 auto 28px;opacity:.92}
+.btn{display:inline-block;background:var(--main);color:#fff;padding:15px 30px;border-radius:30px;text-decoration:none;font-size:17px;margin:4px}
+.btn.ghost{background:transparent;border:2px solid #fff}
+section{padding:56px 0}
+h2{font-size:30px;text-align:center;margin-bottom:8px;color:var(--dark)}
+.sub{text-align:center;color:#6b655c;margin-bottom:34px;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:#fff;border-radius:14px;padding:26px 22px;box-shadow:0 2px 12px rgba(0,0,0,.07);text-align:center}
+.card .ic{font-size:34px;margin-bottom:10px}
+.card h3{font-size:19px;margin-bottom:8px}
+.card p{color:#5c574f;font-size:15px;line-height:1.5}
+.strip{background:var(--dark);color:#fff;text-align:center}
+.strip h2{color:#fff}
+.strip p{max-width:640px;margin:0 auto 24px;opacity:.9;font-size:17px;line-height:1.6}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.ibox{background:#fff;border-radius:14px;padding:24px;box-shadow:0 2px 12px rgba(0,0,0,.07)}
+.ibox h3{margin-bottom:12px;color:var(--dark)}
+.ibox p,.ibox li{color:#4c4741;font-size:15px;line-height:1.7}
+.ibox ul{list-style:none}
+footer{background:#12100e;color:#b9b2a6;text-align:center;padding:28px 0;font-size:14px}
+footer a{color:var(--accent);text-decoration:none}
+.wa{position:fixed;right:18px;bottom:18px;background:#25d366;color:#fff;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;text-decoration:none;box-shadow:0 4px 16px rgba(0,0,0,.3);z-index:20}
+@media(max-width:640px){.hero h1{font-size:31px}.hero{padding:64px 0 56px}}
+</style>
+</head>
+<body>
+<header><div class="wrap hbar"><div class="logo">TEM DE <span>TUDO</span></div>
+<div class="langs"><button data-l="pt" class="on">PT</button><button data-l="en">EN</button><button data-l="es">ES</button></div></div></header>
+
+<div class="hero"><div class="wrap">
+<h1 data-i="hero_h"></h1><p data-i="hero_p"></p>
+<a class="btn" href="https://wa.me/16093538583?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20mais." target="_blank" rel="noopener" data-i="cta_wa"></a>
+<a class="btn ghost" href="tel:+16093538583" data-i="cta_call"></a>
+</div></div>
+
+<section><div class="wrap"><h2 data-i="s1_h"></h2><p class="sub" data-i="s1_sub"></p>
+<div class="grid"><div class="card"><div class="ic">🇧🇷</div><h3 data-i="c1h"></h3><p data-i="c1p"></p></div><div class="card"><div class="ic">🥩</div><h3 data-i="c2h"></h3><p data-i="c2p"></p></div><div class="card"><div class="ic">🍞</div><h3 data-i="c3h"></h3><p data-i="c3p"></p></div><div class="card"><div class="ic">🧃</div><h3 data-i="c4h"></h3><p data-i="c4p"></p></div></div></div></section>
+
+<section class="strip"><div class="wrap"><h2 data-i="strip_h"></h2><p data-i="strip_p"></p>
+<a class="btn" href="https://wa.me/16093538583?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20mais." target="_blank" rel="noopener" data-i="cta_wa"></a></div></section>
+
+<section><div class="wrap"><h2 data-i="visit_h"></h2><p class="sub"></p>
+<div class="info">
+<div class="ibox"><h3 data-i="addr_h"></h3><p>16 E Scott St, Riverside, NJ 08075<br/><a href="https://www.google.com/maps/search/?api=1&query=Tem+De+Tudo+Supermarket+16+E+Scott+St+Riverside+NJ" target="_blank" rel="noopener" data-i="maps"></a></p></div>
+<div class="ibox"><h3 data-i="hours_h"></h3><ul><li>Consulte o horário de hoje pelo WhatsApp 💬</li></ul></div>
+<div class="ibox"><h3 data-i="contact_h"></h3><p>+1 (609) 353-8583<br/><a href="https://wa.me/16093538583?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20mais." target="_blank" rel="noopener">WhatsApp</a></p></div>
+</div></div></section>
+
+<footer><div class="wrap"><span data-i="sample"></span> · <a href="https://empirecutzbs-glitch.github.io/nexus-conexoes/" target="_blank" rel="noopener">Nexus Conexões</a></div></footer>
+<a class="wa" href="https://wa.me/16093538583?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20mais." target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+<script>
+const T = {"pt": {"cta_wa": "Chamar no WhatsApp", "cta_call": "Ligar agora", "addr_h": "📍 Endereço", "hours_h": "🕐 Horário", "contact_h": "📞 Contato", "maps": "Como chegar →", "visit_h": "Visite a gente", "sample": "Amostra de site criada pela Nexus Conexões", "hero_h": "O gostinho do Brasil, aqui em Riverside", "hero_p": "Produtos brasileiros, carnes selecionadas e tudo que você procura — num só lugar, pertinho de você.", "s1_h": "O que você encontra aqui", "s1_sub": "As prateleiras de quem sente saudade de casa", "c1h": "Produtos do Brasil", "c1p": "Marcas brasileiras que você conhece e confia, direto pra sua despensa.", "c2h": "Carnes & Frios", "c2p": "Cortes pra churrasco e pro dia a dia, com qualidade de açougue.", "c3h": "Padaria & Doces", "c3p": "Pães, doces e quitutes pra matar a saudade.", "c4h": "Bebidas & Mais", "c4p": "Refrigerantes, sucos e muito mais — tem de tudo, de verdade.", "strip_h": "Não achou o que procurava?", "strip_p": "Chama no WhatsApp: a gente confirma na hora se tem na loja e já separa pra você."}, "en": {"cta_wa": "Chat on WhatsApp", "cta_call": "Call now", "addr_h": "📍 Address", "hours_h": "🕐 Hours", "contact_h": "📞 Contact", "maps": "Get directions →", "visit_h": "Visit us", "sample": "Sample website created by Nexus Conexões", "hero_h": "A taste of Brazil, right here in Riverside", "hero_p": "Brazilian products, quality meats and everything you're looking for — all in one place, close to home.", "s1_h": "What you'll find here", "s1_sub": "Shelves full of home", "c1h": "Products from Brazil", "c1p": "The Brazilian brands you know and trust, straight to your pantry.", "c2h": "Meats & Deli", "c2p": "Cuts for your barbecue and everyday meals, butcher quality.", "c3h": "Bakery & Sweets", "c3p": "Breads, sweets and treats that taste like home.", "c4h": "Drinks & More", "c4p": "Sodas, juices and much more — we really do have it all.", "strip_h": "Can't find what you need?", "strip_p": "Message us on WhatsApp: we'll check the shelf right away and set it aside for you."}, "es": {"cta_wa": "Escribir por WhatsApp", "cta_call": "Llamar ahora", "addr_h": "📍 Dirección", "hours_h": "🕐 Horario", "contact_h": "📞 Contacto", "maps": "Cómo llegar →", "visit_h": "Visítanos", "sample": "Muestra de sitio creada por Nexus Conexões", "hero_h": "El sabor de Brasil, aquí en Riverside", "hero_p": "Productos brasileños, carnes seleccionadas y todo lo que buscas — en un solo lugar, cerca de ti.", "s1_h": "Lo que encuentras aquí", "s1_sub": "Estantes con sabor a casa", "c1h": "Productos de Brasil", "c1p": "Las marcas brasileñas que conoces y en las que confías, directo a tu despensa.", "c2h": "Carnes & Fiambres", "c2p": "Cortes para tu asado y el día a día, con calidad de carnicería.", "c3h": "Panadería & Dulces", "c3p": "Panes, dulces y antojos con sabor a casa.", "c4h": "Bebidas & Más", "c4p": "Gaseosas, jugos y mucho más — de verdad tenemos de todo.", "strip_h": "¿No encuentras lo que buscas?", "strip_p": "Escríbenos por WhatsApp: confirmamos al momento si está en la tienda y te lo apartamos."}};
+let lang='pt';
+function apply(l){lang=l;document.querySelectorAll('[data-i]').forEach(e=>{const k=e.getAttribute('data-i');if(T[l]&&T[l][k])e.textContent=T[l][k];});
+document.querySelectorAll('.langs button').forEach(b=>b.classList.toggle('on',b.dataset.l===l));}
+document.querySelectorAll('.langs button').forEach(b=>b.addEventListener('click',()=>apply(b.dataset.l)));
+apply('pt');
+</script>
+</body></html>
